@@ -7,6 +7,7 @@ import { ContactsPageComponent } from './contacts-page/contacts-page.component';
 import { ModalDialogComponent } from '../components/modal-dialog/modal-dialog.component';
 import { HeaderComponent } from '../components/header/header.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { MyWebsiteRoutingModule } from './my-website-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from '../components/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MyWebsiteRoutingModule
   ]
 })
 export class MyWebsiteModule { }

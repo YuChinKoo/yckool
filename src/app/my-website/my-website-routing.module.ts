@@ -7,6 +7,11 @@ import { ResumePageComponent } from './resume-page/resume-page.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: MyWebsiteRoutingConstants.homePage,
+    pathMatch: 'full'
+  },
+  {
     path: MyWebsiteRoutingConstants.homePage,
     component: HomePageComponent
   },
@@ -21,11 +26,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(routes),
-  ],
-  exports: [
-    RouterModule
-  ]
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule]
 })
 export class MyWebsiteRoutingModule { }
