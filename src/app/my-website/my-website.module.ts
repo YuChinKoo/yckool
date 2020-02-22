@@ -8,6 +8,8 @@ import { ModalDialogComponent } from '../components/modal-dialog/modal-dialog.co
 import { HeaderComponent } from '../components/header/header.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { MyWebsiteRoutingModule } from './my-website-routing.module';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MyWebsiteComponent } from './my-website.component';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { MyWebsiteRoutingModule } from './my-website-routing.module';
     ContactsPageComponent,
     ModalDialogComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MyWebsiteComponent
   ],
   imports: [
     CommonModule,
-    MyWebsiteRoutingModule
+    MyWebsiteRoutingModule,
+    MatToolbarModule
   ]
 })
 export class MyWebsiteModule { }

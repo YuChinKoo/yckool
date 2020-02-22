@@ -4,19 +4,24 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ProjectsPageComponent } from './projects-page/projects-page.component';
 import { MyWebsiteRoutingConstants } from './my-website-routing-constants';
 import { ResumePageComponent } from './resume-page/resume-page.component';
+import { MyWebsiteComponent } from './my-website.component';
 
 const routes: Routes = [
   {
     path: MyWebsiteRoutingConstants.homePage,
-    component: HomePageComponent
-  },
-  {
-    path: MyWebsiteRoutingConstants.projectsPage,
-    component: ProjectsPageComponent
-  },
-  {
-    path: MyWebsiteRoutingConstants.resumePage,
-    component: ResumePageComponent
+    component: MyWebsiteComponent,
+    children: [{
+        path: MyWebsiteRoutingConstants.homePage,
+        component: HomePageComponent
+      },
+      {
+        path: MyWebsiteRoutingConstants.projectsPage,
+        component: ProjectsPageComponent
+      },
+      {
+        path: MyWebsiteRoutingConstants.resumePage,
+        component: ResumePageComponent
+      }]
   }
 ];
 
