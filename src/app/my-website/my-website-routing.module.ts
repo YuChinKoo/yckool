@@ -7,6 +7,10 @@ import { ResumePageComponent } from './resume-page/resume-page.component';
 
 const routes: Routes = [
   {
+    path: MyWebsiteRoutingConstants.homePage,
+    component: HomePageComponent
+  },
+  {
     path: MyWebsiteRoutingConstants.projectsPage,
     component: ProjectsPageComponent
   },
