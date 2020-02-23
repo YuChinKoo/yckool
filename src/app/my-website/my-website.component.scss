@@ -4,10 +4,18 @@
   background-color: #212121;
 }
 
-.img-sao-aincrad {
+#img-sao-aincrad {
   background-image: url("../../assets/images/Aincrad.jpg");
   height: 100%;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-sao-aincrad-logcabin {
+  background-image: url("../../assets/images/sao-aincrad-logcabin.png");
+  height: 100%;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
