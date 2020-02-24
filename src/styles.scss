@@ -28,5 +28,4 @@ $yuchinkoo-my-website-theme: mat-light-theme($yuchinkoo-my-website-primary, $yuc
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Consolas, "Helvetica Neue", sans-serif; }
+@import "src/styles/scss/layout/layout.scss";
