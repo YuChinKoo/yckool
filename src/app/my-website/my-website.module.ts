@@ -12,6 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { ContactDialogComponent } from '../components/contact-dialog/contact-dialog.component';
 import { AboutSectionComponent } from '../components/about-section/about-section.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FrontSectionComponent } from '../components/front-section/front-section.component';
 
 @NgModule({
   declarations: [
@@ -22,14 +24,16 @@ import { AboutSectionComponent } from '../components/about-section/about-section
     FooterComponent,
     MyWebsiteComponent,
     ContactDialogComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    FrontSectionComponent
   ],
   imports: [
     CommonModule,
     MyWebsiteRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    FlexLayoutModule
   ]
 })
 export class MyWebsiteModule { }
