@@ -12,7 +12,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { ContactDialogComponent } from '../components/contact-dialog/contact-dialog.component';
 import { AboutSectionComponent } from '../components/about-section/about-section.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { FrontSectionComponent } from '../components/front-section/front-section.component';
 
 @NgModule({
@@ -32,8 +31,7 @@ import { FrontSectionComponent } from '../components/front-section/front-section
     MyWebsiteRoutingModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule,
-    FlexLayoutModule
+    MatIconModule
   ]
 })
 export class MyWebsiteModule { }

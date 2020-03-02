@@ -1,0 +1,31 @@
+div.front-base {
+  display: flex;
+  justify-content: center;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+div.text-box {
+  border: 2px solid black;
+}
+
+div.inside-text {
+  display: flex;
+  padding: 100px 100px;
+}
+
+div.text-name {
+  text-align: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+div.line-separator {
+  border-left: 2px solid black;
+  margin: 0 5px;
+}
+
+div.text-program {
+  text-align: left;
+  font-size: 25px;
+}
