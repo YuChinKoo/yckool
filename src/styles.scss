@@ -29,3 +29,20 @@ $yuchinkoo-my-website-theme: mat-light-theme($yuchinkoo-my-website-primary, $yuc
 /* You can add global styles to this file, and also import other style files */
 
 @import "src/styles/scss/layout/layout.scss";
+
+#wrapper {
+  padding: 100px 0 60px 100px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 100;
+}
+
+#particles-js {
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}

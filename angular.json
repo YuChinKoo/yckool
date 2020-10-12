@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "yuchinkoo-my-website"
+  "defaultProject": "yuchinkoo-my-website",
+  "cli": {
+    "analytics": "5eea61b2-979b-4cb6-8502-1e68fafae6b3"
+  }
 }
