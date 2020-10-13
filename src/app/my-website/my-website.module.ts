@@ -13,6 +13,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ContactDialogComponent } from '../components/contact-dialog/contact-dialog.component';
 import { AboutSectionComponent } from '../components/about-section/about-section.component';
 import { FrontSectionComponent } from '../components/front-section/front-section.component';
+import { CommandPromptComponent } from './command-prompt/command-prompt.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FrontSectionComponent } from '../components/front-section/front-section
     MyWebsiteComponent,
     ContactDialogComponent,
     AboutSectionComponent,
-    FrontSectionComponent
+    FrontSectionComponent,
+    CommandPromptComponent
   ],
   imports: [
     CommonModule,
