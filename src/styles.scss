@@ -31,18 +31,26 @@ $yuchinkoo-my-website-theme: mat-light-theme($yuchinkoo-my-website-primary, $yuc
 @import "src/styles/scss/layout/layout.scss";
 
 #wrapper {
-  padding: 150px 250px 100px 250px;
+  padding: 100px 250px 100px 250px;
   box-sizing: border-box;
   position: relative;
   z-index: 100;
 }
 
 #particles-js {
-  background-color: gray;
+  background-color: #151415;
   width: 100%;
   height: 100%;
   position: fixed;
   z-index: -10;
   top: 0;
   left: 0;
+}
+
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  transform: scale(1);
+  opacity: 1;
+  transition: opacity .8s ease, transform 1.4s ease;
 }
